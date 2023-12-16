@@ -1,0 +1,133 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:red;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:green;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:cyan;
+	    font-size:1.5em;
+		text-align:center;
+		border-align:center;
+		padding:10px;
+		grid-column:span 2;
+		}
+	.footer {
+	    background:red;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:red;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+		.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:cyan;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.footer {
+	    background:red;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:red;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:cyan;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:red;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>ABOUT</title>
+	</head>
+<body>
+
+<div class=container>	
+   
+    <div class=header>ABOUT MYSELF</div>
+	<div class=nav><a href=index.html>MAIN</a>
+	<a href=TALENTS.html>MY TALENTS</a><a href=SKILLS.html>MY SKILLS</a><a href=FAVORITE.html>MY FAVORITE ANIME/MANGA🤓</a></div>
+	<div class=main>My name is Liam Izak E. Pazon. I am a student at DBTC cebu and i am currently 14 year old.<br>
+I was born in the Philippines, tacloban october 20th 2009. We moved to cebu when i was around 2 years old.<br>
+I live at 308 Negra Arroyo Lane, Albuquerque, New Mexico, 87104. If you're reading this , I'm probably dead, murdered by my brother-in-law Hank Schrader.<br> 
+Hank has been building a meth empire for over a year now and using me as his chemist. Shortly after my 14th birthday,<br>
+ Hank came to me with a rather, shocking proposition. He asked that I use my chemistry knowledge to cook methamphetamine,<br>
+ which he would then sell using his connections in the drug world. Connections he made through his career in the DEA. I was....</br></br></div>
+	<div class=footer><a href=README.html>Created by Liam Izak E. Pazon</a></div>
+	
+	</div>
+</body>
+</html>	
